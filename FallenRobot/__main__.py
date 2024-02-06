@@ -71,7 +71,7 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-START_PIC = "https://te.legra.ph/file/cd2da5b1026a002646e78.jpg"
+START_PIC = "https://te.legra.ph/file/4333efb39869fd7780082.jpg"
 
 PM_START_TEXT = """
 *ʜᴇʏ* {}, [🥀]({})
@@ -94,7 +94,7 @@ buttons = [
         InlineKeyboardButton(text="ʜᴇʟᴩ & ᴄᴏᴍᴍᴀɴᴅs", callback_data="help_back"),
     ],
     [
-        InlineKeyboardButton(text="˹sᴜᴘᴘᴏʀᴛ˼", url=f"https://t.me/Anime_Campus"),
+        InlineKeyboardButton(text="˹sᴜᴘᴘᴏʀᴛ˼", url=f"https://t.me/hiddenXfamily"),
         
     ],
     [
