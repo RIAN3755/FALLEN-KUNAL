@@ -71,7 +71,7 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-START_PIC = "https://te.legra.ph/file/4333efb39869fd7780082.jpg"
+START_PIC = "https://telegra.ph/file/3f59aa5ba4b9bd432c3db.jpg"
 
 PM_START_TEXT = """
 *ʜᴇʏ* {}, [🥀]({})
@@ -86,7 +86,7 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text="ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ",
+            text="sᴜᴍᴍᴏɴ ᴍᴇ ʙᴀʙʏ",
             url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
         ),
     ],
@@ -94,7 +94,7 @@ buttons = [
         InlineKeyboardButton(text="ʜᴇʟᴩ & ᴄᴏᴍᴍᴀɴᴅs", callback_data="help_back"),
     ],
     [
-        InlineKeyboardButton(text="˹sᴜᴘᴘᴏʀᴛ˼", url=f"https://t.me/hiddenXfamily"),
+        InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ", url=f"https://t.me/hiddenXfamily"),
         
     ],
     [
@@ -209,7 +209,7 @@ def start(update: Update, context: CallbackContext):
         else:
             first_name = update.effective_user.first_name
             update.effective_message.reply_sticker(
-                "CAACAgUAAx0CVp075gABRnxfZGV_QHZPlEXJSnHrnXU9-LWJ_V0AAuMHAAL8DzBXAAGv9EvyPDi7LwQ"
+                "CAACAgUAAxkBAAIB7mYKXhNbs2HuIVgKV9sIU37s2NqfAALmDwACBmpJVt4d-bZlbsvpNAQ"
             )
             update.effective_message.reply_text(
                 PM_START_TEXT.format(escape_markdown(first_name), START_PIC, BOT_NAME),
